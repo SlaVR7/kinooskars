@@ -4,43 +4,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Новинки фильмов 2022</title>
+  <title>Новинки фильмов</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <script src="js/index.js"></script>
 </head>
 <body>
   <header>
     <nav class="header__nav">
       <div>
         <div class="burger">
-          <a class="burger__link" href="">
-            Главное меню
-          </a>
+          Главное меню
         </div>
         <ul class="header__list">
-          <li class="header__item"><a class="header__href"  href="">Главная</a></li>
-          <li  class="header__item"><a class="header__href" href="">Правообладателям</a></li>
-          <li  class="header__item"><a class="header__href" href="">Заметили ошибку? 
-            <span class="header__href_hidden">Сообщите нам!</span> </a></li>
-          <li  class="header__item"><a class="header__href" href="">Стол заказов</a></li>
-          <li  class="header__item"><a class="header__href" href="">Мы Вконтакте | Твиттере</a></li>
+          <li class="header__item">
+            <a class="header__href"  href="">Главная</a>
+          </li>
+          <li class="header__item">
+            <a class="header__href" href="">Правообладателям</a>
+          </li>
+          <li class="header__item">
+            <a class="header__href" href="">Заметили ошибку?
+              <span class="header__href_hidden">Сообщите нам!</span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__href" href="">Стол заказов</a>
+          </li>
+          <li class="header__item">
+            <a class="header__href" href="">Мы Вконтакте | Твиттере</a>
+          </li>
         </ul>
       </div>
       <div class="header__right">
-        <form class="header__form" 
-              action="https://jsonplaceholder.typicode.com/posts" 
+        <form class="header__form"
+              action="https://jsonplaceholder.typicode.com/posts"
               method="post">
-          <input aria-label="Найти фильм" class="header__search" type="text" name="search reqest">
-          <button class="header__btn">Поиск</button>                         
+          <input aria-label="Найти фильм" class="header__search" type="text">
+          <button class="header__btn">Поиск</button>
         </form>
           <button class="header__btn header__btn_less310px">Найти фильм</button>
       </div>
     </nav>
     <div class="header__bottom">
       <div>
-        <a href="index.html"><img class="logo" src="img/logo.png" alt="logo">
+        <a href="index.html">
+          <img class="logo" src="img/logo.png" alt="logo">
         </a>
       </div>
       <div class="header__center">
@@ -56,7 +65,21 @@
         <img class="header__pictures" src="img/rdl1.png" alt="lara croft">
         <img class="header__pictures" src="img/rdl3.png" alt="jumping man">
         <img class="header__pictures" src="img/rdl1.png" alt="lara croft">
-        <div class="adminpanel">Тут будет <br> админпанель</div>
+        <div class="admin-panel">
+          <h3>Hi, User!</h3>
+          <div>
+            <a class="admin-panel__link">Мой профиль</a>
+          </div>
+          <div>
+            <a class="admin-panel__link">Закладки</a>
+          </div>
+          <div>
+            <a class="admin-panel__link">Сообщения</a>
+          </div>
+          <div>
+            <a class="admin-panel__link">Выйти</a>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -81,7 +104,7 @@
           <li class="left-nav__items"><a class="left-nav__href" href="">Мелодрамы</a></li>
           <li class="left-nav__items"><a class="left-nav__href" href="">Мультфильмы</a></li>
           <li class="left-nav__items"><a class="left-nav__href" href="">Приключения</a></li>
-          <li class="left-nav__items what-more">а так же</li>
+          <li class="left-nav__items what-more">А так же</li>
           <li class="left-nav__items"><a class="left-nav__href" href="">Документальное кино</a></li>
           <li class="left-nav__items"><a class="left-nav__href" href="">Многосерийное кино</a></li>
           <li class="left-nav__items"><a class="left-nav__href" href="">Музыкальные клипы</a></li>
@@ -110,16 +133,15 @@
         </nav>
         <aside>
           <h4>НОВОСТИ САЙТА</h4>
-          <p class="news">Сайт находится в стадии разработки. Если что-то отображается криво - сорян. </p>
+          <p class="news">Музыкальные клипы теперь на kinooskars!</p>
         </aside>
-      </article>  
+      </article>
     </div>
-      
+
       <!-- section main content -->
 
     <section class="content">
-      <h2>Смотреть онлайн новинки фильмов 2022</h2>
-
+      <h2>Смотреть онлайн новинки фильмов 2012</h2>
 
       <h3 class="film-title" >
         <label for="watch__lord-of-rings">
@@ -140,10 +162,7 @@
         <div class="watch-online">
             <label for="watch__lord-of-rings">Смотреть онлайн</label>
         </div>
-
-
       <hr>
-
 
     <h3 class="film-title">
       <label for="watch__pirates">Пираты Карибского моря: Мертвецы не рассказывают сказки</label>
@@ -155,12 +174,12 @@
       </div>
       <input type="checkbox" name="" id="pirates">
       <p class="films-description">
-        <label for="pirates">Исчерпавший свою удачу капитан Джек Воробей обнаруживает, что за ним охотится его старый неприятель, ужасный капитан Салазар и его мертвецы. Они только что сбежали из Дьявольского треугольника и намерены уничтожить всех пиратов, включая Джека. Поможет спастись лишь могущественный артефакт — трезубец Посейдона, который дарует своему обладателю полный контроль над морями. 
-    </label>   
+        <label for="pirates">Исчерпавший свою удачу капитан Джек Воробей обнаруживает, что за ним охотится его старый неприятель, ужасный капитан Салазар и его мертвецы. Они только что сбежали из Дьявольского треугольника и намерены уничтожить всех пиратов, включая Джека. Поможет спастись лишь могущественный артефакт — трезубец Посейдона, который дарует своему обладателю полный контроль над морями.
+    </label>
           </p>
           <div class="watch-online">
             <label for="watch__pirates">Смотреть онлайн</label>
-          </div> 
+          </div>
       </section>
 
       <!-- Section main right block -->
@@ -188,14 +207,14 @@
         </nav>
           <aside>
             <h4>НОВОСТИ САЙТА</h4>
-            <p class="news">Сайт находится в стадии разработки. Если что-то отображается криво - сорян. </p>
+            <p class="news">Музыкальные клипы теперь на kinooskars!</p>
           </aside>
-      </article>      
+      </article>
   </main>
 
     <footer>
-      <p class="title">KINOOSKARS.RU</p> 
-      <p>Так, ну а зесь будет описание сайта с ключевиками, всякие логотипы с копирайтами, а так же статистика посещений. Ну и ещё что-нибудь:-)</p>
+      <p class="title">KINOOSKARS.RU</p>
+      <p>Информационный портал "KinoOskars.ru" - это ваш идеальный источник всего о мире кино и кинематографии. На нашем веб-сайте вы найдете богатую коллекцию фильмов, рецензий, новостей и интересных статей о киноиндустрии. Мы стремимся удовлетворить вкусы каждого кинолюбителя, предлагая широкий выбор жанров, от блокбастеров и драм до документальных фильмов и независимого кино.</p>
     </footer>
   </body>
 </html>

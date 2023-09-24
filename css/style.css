@@ -62,7 +62,7 @@ body {
 
 /* @keyframes anim {
 
- 
+
     100% {
         transform: scale(0, 0) rotate(-720deg);
     }
@@ -90,7 +90,7 @@ header {
 .header__nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 4px; 
+    margin-bottom: 4px;
     padding-right: 10px;
     font-size: 18px;
     background-color: #292929;
@@ -98,7 +98,7 @@ header {
 }
 
 .burger {
-   display: none; 
+   display: none;
 }
 
 .header__list {
@@ -220,7 +220,7 @@ header {
     overflow: hidden;
 }
 
-.adminpanel {
+.admin-panel {
     max-width: 200px;
     transition-property: color, font-size, font-weight;
     transition-duration: 300ms;
@@ -228,10 +228,13 @@ header {
     transition-delay: 1s;
 }
 
-.adminpanel:hover {
-    font-weight: bold;
-    font-size: 22px;
-    color: red;
+.admin-panel__link {
+    color: #df8e00;
+}
+
+.admin-panel__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* main */
@@ -336,7 +339,9 @@ h2 {
     background-color: #292929;
 }
 
-h3 {
+.film-title {
+    display: block;
+    cursor: pointer;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 20px;
@@ -350,15 +355,9 @@ h3 {
     background-color: #7c7a7a;
 }
 
-h3:active {
+.film-title:active {
     transform: scale(0.9);
     transform-origin: left top;
-}
-
-.film-title {
-    display: block;
-    cursor: pointer;
-
 }
 
 .film-title:hover {
@@ -410,7 +409,7 @@ h3:active {
 }
 
 .watch-online:active {
-    transform: translate(-40px) scale(0.9);  
+    transform: translate(-40px) scale(0.9);
 }
 
 iframe {
@@ -637,14 +636,10 @@ footer {
         padding-left: 50px;
         height: 100%;
         background-image: url("../img/burger.png");
-        background-size: 30px 30px;
+        background-size: 25px 25px;
         background-repeat: no-repeat;
         background-position: 10px center;
-    }
-
-    .burger__link {
         color: white;
-        
     }
 
     .header__list {
@@ -679,8 +674,8 @@ footer {
     .left-nav,
     .right-nav,
     aside {
-        margin-right: 0;  
-        margin-left: 10px;  
+        margin-right: 0;
+        margin-left: 10px;
     }
 
 }
@@ -701,15 +696,15 @@ footer {
     }
 
     .films-description {
-    position: relative; 
+    position: relative;
     padding-right: 2em;
     padding-bottom: 2.5em;
-    max-height: 3.6em; 
+    max-height: 3.6em;
     line-height: 1.2em;
-    text-align: justify;  
+    text-align: justify;
     overflow: hidden;
   }
-  
+
     .films-description:before {
     content: '…';
     position: absolute;
@@ -717,7 +712,7 @@ footer {
     bottom: 0;
   }
 
-   
+
   #lord-of-rings:checked + .films-description {        /* когда чекбокс выбран, разворачивается описание */
     padding-bottom: 1em;
     max-height: none;
@@ -754,9 +749,6 @@ footer {
         width: 90px;
         background-size: 20px 20px;
         background-position: 5px 5px;
-    }
-
-    .burger__link {
         font-size: 14px;
     }
 
@@ -764,7 +756,7 @@ footer {
         font-size: 15px;
     }
 
-    h3 {
+    .film-title {
         margin: 10px;
     }
 
