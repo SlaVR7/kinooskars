@@ -323,8 +323,9 @@ h1 {
     border-radius: 30px;
 }
 
-.content__item:first-child {
-    padding-top: 0;
+.content__item:nth-child(2) {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
 }
 
 h2 {
@@ -616,20 +617,20 @@ footer {
         background-color: #292929;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
-        height: 200px;
+        width: 200px;
         overflow: hidden;
-        transition-duration: .3s;
+        transition-duration: .5s;
     }
 
     .burger-hidden {
         padding: 0;
         height: 0;
         overflow: hidden;
-        transition-duration: .3s;
+        transition-duration: .5s;
     }
 
     .burger-menu__list {
-        padding: 10px;
+        padding: 0 10px;
     }
 
     .header__item-burger {
