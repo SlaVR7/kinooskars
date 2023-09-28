@@ -41,5 +41,7 @@ function toggleBurgerMenu() {
 }
 ```
 
-Contact
-You can reach out to me via email at [mylife0793@gmail.com](mailto:mylife0793@gmail.com), telegram: https://t.me/skill_hunter or through my GitHub profile.
+## Contact
+- Email: [mylife0793@gmail.com](mailto:mylife0793@gmail.com)
+- Telegram: https://t.me/skill_hunter 
+- GitHub profile.
