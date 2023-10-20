@@ -10,7 +10,7 @@ Kinooskars is a project that recreates the basic layout of my old website for mo
 
 ## Demo
 
-You can see the live demo of the project at [https://slavr7.github.io/kinooskars.ru/](https://slavr7.github.io/kinooskars.ru/)
+You can see the live demo of the project at [https://slavr7.github.io/kinooskars.ru/](https://slavr7.github.io/kinooskars/)
 
 ## Installation and Usage
 
