@@ -40,8 +40,3 @@ function toggleBurgerMenu() {
     burgerMenu.classList.toggle('burger-hidden');
 }
 ```
-
-## Contacts
-- Email: [mylife0793@gmail.com](mailto:mylife0793@gmail.com)
-- Telegram: https://t.me/skill_hunter 
-- GitHub profile.
